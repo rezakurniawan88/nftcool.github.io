@@ -149,6 +149,10 @@ nav {
   margin: 30px 0 30px 60px;
 }
 
+.menucard3 {
+  margin: 80px 0 30px 60px;
+}
+
 .menucard h3 {
   font-family: "Open Sans", sans-serif;
 }
@@ -231,6 +235,42 @@ nav {
 
 .buttoncard {
   margin-top: 15px;
+}
+
+.artist-card {
+  margin: 10px 0 20px 75px;
+}
+
+.artist-card h1 {
+  font-size: 30px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.artist-card img {
+  width: 60px;
+  height: 60px;
+  margin: 0 15px 0 15px;
+}
+
+.artist-card2 {
+  margin: 10px 0 20px 10px;
+}
+
+.artist-card2 h1 {
+  font-size: 30px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.artist-card2 img {
+  width: 60px;
+  height: 60px;
+  margin: 0 15px 0 15px;
+}
+
+.info-user h3 {
+  font-size: 22px;
 }
 
 /* Mobile View */
