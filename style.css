@@ -2,6 +2,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
+body {
+  overflow-x: hidden;
+}
+
+/* body {
+  background-color: lightblue;
+}
+
+.menucard {
+  background-color: lightsalmon;
+}
+
+.menucard2 {
+  background-color: maroon;
+}
+
+.menucard3 {
+  background-color: midnightblue;
+}
+
+#Jumbotron {
+  background-color: green;
+}
+
+#Latest {
+  background-color: greenyellow;
+}
+
+#Trending {
+  background-color: hotpink;
+}
+
+#Leaderboard {
+  background-color: indigo;
+} */
+
 /* Navbar */
 nav {
   margin-top: 10px;
@@ -266,11 +302,79 @@ nav {
 .artist-card2 img {
   width: 60px;
   height: 60px;
-  margin: 0 15px 0 15px;
+  margin: 0 15px;
 }
 
 .info-user h3 {
   font-size: 22px;
+}
+
+/* Article */
+.article {
+  margin: 150px 0;
+}
+.article img {
+  width: 400px;
+}
+
+.article_content {
+  padding-left: 140px;
+}
+
+.article_content h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.article_content p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.article_image {
+  padding-left: 140px;
+}
+
+.btn_article,
+.btn_article a {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+}
+
+/* Subscribe */
+.subscribe {
+  margin: 100px 0;
+}
+
+.text_subscribe h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.column_subscribe {
+  margin: 40px 0;
+  padding-left: 80px;
+}
+.column_subscribe input {
+  width: 450px;
+  border-radius: 40px;
+  padding: 20px;
+  margin-right: 20px;
+  text-indent: 30px;
+}
+
+.btn_subs,
+.btn_subs a {
+  background-color: black;
+  height: 70px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 /* Mobile View */
