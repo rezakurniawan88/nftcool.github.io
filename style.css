@@ -377,6 +377,40 @@ nav {
   font-size: 18px;
 }
 
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.brand_footer {
+  padding-left: 50px;
+}
+
+.brand_footer h2,
+.link_title {
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 10px;
+}
+
+.page-footer ul li a {
+  color: white;
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 15px;
+}
+
+.iconify {
+  font-size: 35px;
+  padding: 0 5px;
+}
+
+.copyright {
+  padding-top: 15px;
+}
+
 /* Mobile View */
 @media only screen and (max-width: 768px) {
   .navbar-brand {
