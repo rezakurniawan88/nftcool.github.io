@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -20,7 +15,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light mt-4">
       <div class="container">
         <a href="#" class="navbar-brand">NftCool</a>
         <button
@@ -36,9 +31,9 @@
           id="navbarCollapse"
         >
           <div class="navbar-nav">
-            <a href="#" class="nav-item nav-link">Marketplace</a>
-            <a href="#" class="nav-item nav-link">Leaderboard</a>
-            <a href="#" class="nav-item nav-link">Account</a>
+            <a href="#" class="nav-item nav-link fw-bold">Marketplace</a>
+            <a href="#" class="nav-item nav-link fw-bold">Leaderboard</a>
+            <a href="#" class="nav-item nav-link fw-bold">Account</a>
           </div>
           <div class="col-md-3">
             <div class="search">
@@ -102,7 +97,7 @@
 
     <!-- Card Latest -->
     <section id="Latest">
-      <div class="row menucard">
+      <div class="d-flex justify-content-between menucard">
         <div class="col-md-10 textmenu">
           <h3>Latest</h3>
           <p>Enjoy the latest hot auctions</p>
@@ -275,7 +270,7 @@
 
     <!-- Card Trending -->
     <section id="Trending">
-      <div class="row menucard2">
+      <div class="d-flex justify-content-between menucard2">
         <div class="col-md-10 textmenu">
           <h3>Trending</h3>
           <p>Enjoy the trending hot auctions</p>
@@ -448,7 +443,7 @@
 
     <!-- Top Artist -->
     <section id="Leaderboard">
-      <div class="row menucard3">
+      <div class="d-flex justify-content-between menucard3">
         <div class="col-md-10 textmenu">
           <h3>Top Artist</h3>
           <p>Best artist artwork of the years</p>
@@ -460,7 +455,7 @@
         </div>
       </div>
       <!-- List Artist -->
-      <div class="row">
+      <div class="artist d-flex">
         <!-- Column 1 -->
         <div class="col-md-4">
           <div class="artist-card d-flex">
@@ -473,7 +468,7 @@
           </div>
           <div class="artist-card d-flex">
             <h1 class="rank-user">02.</h1>
-            <img src="Assets/Image/Avatar/user1.png" alt="user1" />
+            <img src="Assets/Image/Avatar/user2.png" alt="user1" />
             <div class="info-user">
               <h3>Jaylon Septimus</h3>
               <p>17.5 ETH</p>
@@ -481,7 +476,7 @@
           </div>
           <div class="artist-card d-flex">
             <h1 class="rank-user">03.</h1>
-            <img src="Assets/Image/Avatar/user1.png" alt="user1" />
+            <img src="Assets/Image/Avatar/user3.png" alt="user1" />
             <div class="info-user">
               <h3>Brandon Curtis</h3>
               <p>15.2 ETH</p>
@@ -489,7 +484,7 @@
           </div>
         </div>
         <!-- Column 2 -->
-        <div class="col-md-4">
+        <div class="artist-col-2 col-md-4">
           <div class="artist-card2 d-flex">
             <h1 class="rank-user">04.</h1>
             <img src="Assets/Image/Avatar/user2.png" alt="user1" />
@@ -500,7 +495,7 @@
           </div>
           <div class="artist-card2 d-flex">
             <h1 class="rank-user">05.</h1>
-            <img src="Assets/Image/Avatar/user2.png" alt="user1" />
+            <img src="Assets/Image/Avatar/user3.png" alt="user1" />
             <div class="info-user">
               <h3>Giana Lipshutz</h3>
               <p>13.2 ETH</p>
@@ -508,7 +503,7 @@
           </div>
           <div class="artist-card2 d-flex">
             <h1 class="rank-user">06.</h1>
-            <img src="Assets/Image/Avatar/user2.png" alt="user1" />
+            <img src="Assets/Image/Avatar/user1.png" alt="user1" />
             <div class="info-user">
               <h3>Emery Vetrovs</h3>
               <p>12.7 ETH</p>
@@ -516,7 +511,7 @@
           </div>
         </div>
         <!-- Column 3 -->
-        <div class="col-md-4">
+        <div class="artist-col-3 col-md-4">
           <div class="artist-card2 d-flex">
             <h1 class="rank-user">07.</h1>
             <img src="Assets/Image/Avatar/user3.png" alt="user1" />
@@ -527,7 +522,7 @@
           </div>
           <div class="artist-card2 d-flex">
             <h1 class="rank-user">08.</h1>
-            <img src="Assets/Image/Avatar/user3.png" alt="user1" />
+            <img src="Assets/Image/Avatar/user1.png" alt="user1" />
             <div class="info-user">
               <h3>Jaylon Herwitz</h3>
               <p>10.6 ETH</p>
@@ -535,7 +530,7 @@
           </div>
           <div class="artist-card2 d-flex">
             <h1 class="rank-user">09.</h1>
-            <img src="Assets/Image/Avatar/user3.png" alt="user1" />
+            <img src="Assets/Image/Avatar/user2.png" alt="user1" />
             <div class="info-user">
               <h3>Tiana Torff</h3>
               <p>8.8 ETH</p>
@@ -548,7 +543,7 @@
 
     <!-- Article -->
     <section id="article">
-      <div class="row article">
+      <div class="d-flex article">
         <div class="col-md-6 article_content">
           <h2>
             The best marketplace to <br />
@@ -598,7 +593,7 @@
     <!-- Footer -->
     <footer class="page-footer font-small">
       <div class="container-fluid text-md-left">
-        <div class="row">
+        <div class="d-flex container-footer">
           <div class="col-md-5 mt-md-0 mt-3 brand_footer">
             <h2>NftCool.</h2>
             <span
@@ -624,78 +619,78 @@
             <p class="copyright">Copyright 2021 by NftCool Team.</p>
           </div>
 
-          <div class="col-md-2 mb-md-0 mb-3">
-            <h5 class="link_title">Company</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">About us</a>
-              </li>
-              <li>
-                <a href="#!">Contact us</a>
-              </li>
-              <li>
-                <a href="#!">Pricing</a>
-              </li>
-              <li>
-                <a href="#!">Blog</a>
-              </li>
-              <li>
-                <a href="#!">Help Center</a>
-              </li>
-            </ul>
+          <div class="d-flex col-md-10 footer-desc">
+              <div class="col-md-2 mb-md-0 mb-3">
+                <h5 class="link_title">Company</h5>
+    
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">About us</a>
+                  </li>
+                  <li>
+                    <a href="#!">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="#!">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#!">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#!">Help Center</a>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="col-md-2 mb-md-0 mb-3">
+                <h5 class="link_title">Learn</h5>
+    
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">What is Blockchain?</a>
+                  </li>
+                  <li>
+                    <a href="#!">What is NFT?</a>
+                  </li>
+                  <li>
+                    <a href="#!">What is Metaverse?</a>
+                  </li>
+                  <li>
+                    <a href="#!">What is Crypto?</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-2 mb-md-0 mb-3">
+                <h5 class="link_title">Solution For</h5>
+    
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Artist</a>
+                  </li>
+                  <li>
+                    <a href="#!">Influencer</a>
+                  </li>
+                  <li>
+                    <a href="#!">Gamers</a>
+                  </li>
+                  <li>
+                    <a href="#!">Event</a>
+                  </li>
+                  <li>
+                    <a href="#!">Communities</a>
+                  </li>
+                </ul>
+              </div>
+            
           </div>
 
-          <div class="col-md-2 mb-md-0 mb-3">
-            <h5 class="link_title">Learn</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">What is Blockchain?</a>
-              </li>
-              <li>
-                <a href="#!">What is NFT?</a>
-              </li>
-              <li>
-                <a href="#!">What is Metaverse?</a>
-              </li>
-              <li>
-                <a href="#!">What is Crypto?</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2 mb-md-0 mb-3">
-            <h5 class="link_title">Solution For</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Artist</a>
-              </li>
-              <li>
-                <a href="#!">Influencer</a>
-              </li>
-              <li>
-                <a href="#!">Gamers</a>
-              </li>
-              <li>
-                <a href="#!">Event</a>
-              </li>
-              <li>
-                <a href="#!">Communities</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </footer>
     <!-- End Footer -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     <!-- Iconify -->
     <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
